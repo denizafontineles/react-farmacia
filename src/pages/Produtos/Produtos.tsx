@@ -1,10 +1,11 @@
+import ListarCategorias from '../../components/Categorias/ListarCategorias/ListarCategorias';
 
 function Produtos() {
  
   return (
     <>
      <div>
-          <h2>Produtos</h2>
+          <ListarCategorias />
     </div>
     </>
   )

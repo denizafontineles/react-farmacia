@@ -1,13 +1,14 @@
+import ListarCategorias from '../../components/Categorias/ListarCategorias/ListarCategorias';
 
-function Produtos() {
+function Categorias() {
  
     return (
       <>
        <div>
-            <h2>Categorias</h2>
+            <ListarCategorias />
       </div>
       </>
     )
   }
   
-  export default Produtos
+  export default Categorias
